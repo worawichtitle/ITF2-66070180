@@ -1,0 +1,145 @@
+main {
+    width: 1024px;
+    min-height: 100vh;
+    border: 2px green solid;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+}
+
+.parent {
+    position: relative;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    background-image: url(https://avatars.githubusercontent.com/u/96097422?v=4);
+    background-size: contain;
+    background-position: center;
+    border-radius: 9999px;
+    background-repeat: no-repeat;
+}
+
+.child {
+    position: absolute;
+    left: 83%;
+    top: 83%;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+}
+
+.row {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 0px 5px; /* gap: top-down left-right; */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px 16px;
+    margin-bottom: 32px;
+}
+
+.gallery .image {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+#lager-col {
+    grid-column: span 2;
+    background-color: black;
+    width: 100%;
+}
+
+#lager-row {
+    grid-row: span 2;
+    background-color: black;
+    height: 100%;
+}
+
+#profile-link {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+#profile-link:hover {
+    color: red;
+}
+
+.gallery .image:nth-child(1) {
+    background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/000/136/769/motivator56ab70ae23a1f9ee05709d79bfe20ec4a2c023d3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.gallery .image:nth-child(2) {
+    background-image: url(https://www.wearethemighty.com/uploads/legacy/assets.rbl.ms/23555357/origin.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.gallery .image:nth-child(3) {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAWohP8DOXj_p7hGAmqzm97RVB6U6OvON7aVFV-AMuPb7QvsupJIKsbTwMmbjVVReOzlo&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.gallery .image:nth-child(4) {
+    background-image: url(https://i.pinimg.com/originals/f0/5a/16/f05a164f074796a6a09d31aeb1449c29.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.gallery .image:nth-child(5) {
+    background-image: url(https://pbs.twimg.com/media/EcEg4gAWkAAfMCj.jpg);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.gallery .image:nth-child(6) {
+    background-image: url(https://imgb.ifunny.co/images/87c1a06cd529b38d3109064b128fa872740ad824a1048d98f89b61f5c6673f34_1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.gallery .image:nth-child(7) {
+    background-image: url(https://pbs.twimg.com/media/EJUeEuTXkAAXdut.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.gallery .image:nth-child(8) {
+    background-image: url(https://ih1.redbubble.net/image.493963553.5414/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.gallery .image:nth-child(9) {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SCDWjZkZf5i_UILZZg0fQkLMNBEeaNadVZzLtjz_VoT0XII-Y7U-BLsu-t4eS1Rxl4w&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.gallery .image:nth-child(10) {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVmt-P80wqd8yJAUMdq5vjzC1f8f5uaTo3Q&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
